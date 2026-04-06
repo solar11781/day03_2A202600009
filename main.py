@@ -73,7 +73,7 @@ def main():
     agent = ReActAgent(llm=llm, tools=tools_config, max_steps=7)
     
     # The specific AI Lab application use case translated to English
-    user_query = "I want to apply to the university's Artificial Intelligence Lab (AI Lab) at the end of this month. Could you help me find some basic Machine Learning study materials and schedule a 2-hour daily practical study session from now until the exam?"
+    user_query = "Make a study plan from now to 30/04"
     
     print(f"\n👤 User: {user_query}")
     print("-" * 50)
